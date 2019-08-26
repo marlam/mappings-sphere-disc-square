@@ -1,0 +1,5 @@
+All mapping methods are implemented in the included libproj library.
+No external libraries are required.
+
+The analysis methods are grouped into disk-square methods and sphere-map
+methods. The pngvis and pdfplot modules require Qt.
