@@ -113,7 +113,7 @@ constexpr double sign_not_zero(double x) { return (x < 0 ? -1 : +1); }
 constexpr double degrees(double x) { return 180 / M_PI * x; }
 constexpr double radians(double x) { return M_PI / 180 * x; }
 
-constexpr bool in_hemisphere(Center c, double lat, double lon)
+constexpr bool in_hemisphere(Center c, double lat, double /* lon */)
 {
     return (c == CenterNorthPole ? (lat >= 0) : (lat <= 0));
 }

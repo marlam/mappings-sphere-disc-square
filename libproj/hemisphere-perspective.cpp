@@ -29,7 +29,7 @@ void Perspective::forward(const Context* ctx, const Implementation* imp, double 
     y = scale * kp * (cos(lat0) * sin(lat) - sin(lat0) * cos(lat) * cos(lon - lon0));
 }
 
-void Perspective::inverse(const Context* ctx, const Implementation* /* imp */, double /* x */, double /* y */, double& lat, double& lon)
+void Perspective::inverse(const Context* /* ctx */, const Implementation* /* imp */, double /* x */, double /* y */, double& lat, double& lon)
 {
     lat = lon = NAN;
 }
