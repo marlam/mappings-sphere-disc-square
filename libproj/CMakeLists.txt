@@ -4,11 +4,7 @@
 # permitted in any medium without royalty provided the copyright notice and this
 # notice are preserved. This file is offered as-is, without any warranty.
 
-cmake_minimum_required(VERSION 2.8)
-
-if(CMAKE_COMPILER_IS_GNUCXX)
-	set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=gnu++1y -Wall -Wextra")
-endif()
+cmake_minimum_required(VERSION 3.12)
 
 #find_package(GSL REQUIRED)
 #find_package(Boost REQUIRED COMPONENTS math_tr1)
